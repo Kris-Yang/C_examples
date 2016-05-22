@@ -1,2 +1,2 @@
 # learning
-I just learn c, and i will upload some examples which i build.
+正在学习C语言中，这里主要存放我在学习过程中跟着书本编写或者自己编写的一些程序。
