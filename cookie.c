@@ -1,18 +1,19 @@
 #include <stdio.h>
 void fortune_cookie(char msg[])
-/*msgå…¶å®æ˜¯æŒ‡é’ˆå˜é‡*/ 
+/*msgÆäÊµÊÇÖ¸Õë±äÁ¿*/ 
 {
 	printf("Message reads: %s\n",msg);
-	/*msgæŒ‡å‘ä¼ è¿›æ¥çš„æ¶ˆæ¯*/ 
+	/*msgÖ¸Ïò´«½øÀ´µÄÏûÏ¢*/ 
 	printf("msg occupies %i bytes\n", sizeof(msg));
-	/*sizeofï¼ˆmsgï¼‰ä¸è¿‡æ˜¯æŒ‡é’ˆå˜é‡çš„å¤§å°ç½¢äº†*/ 
+	/*sizeof£¨msg£©²»¹ıÊÇÖ¸Õë±äÁ¿µÄ´óĞ¡°ÕÁË*/ 
 }
 int main()
 {
 	char quote[]="Cookies make you fat";
-	/*quoteå˜é‡ä»£è¡¨å­—ç¬¦ä¸²ä¸­ç¬¬ä¸€ä¸ªå­—ç¬¦çš„åœ°å€ã€‚*/
+	/*quote±äÁ¿´ú±í×Ö·û´®ÖĞµÚÒ»¸ö×Ö·ûµÄµØÖ·¡£*/
 	fortune_cookie(quote);
-	printf("The quote å­—ç¬¦ä¸²ä¿å­˜åœ¨ï¼š%p\n",quote);
+	printf("The quote ×Ö·û´®±£´æÔÚ£º%p\n",quote);
 	return 0;
 	
 }
+
