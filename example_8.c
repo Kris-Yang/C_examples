@@ -1,3 +1,4 @@
+/*‡À∑≠C”Ô—‘P98*/
 #include <stdio.h>
 #include <string.h>
 
