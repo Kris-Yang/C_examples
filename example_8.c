@@ -1,4 +1,4 @@
-/*àË·­CÓïÑÔP98*/
+ï»¿/*å—¨ç¿»Cè¯­è¨€P98*/
 #include <stdio.h>
 #include <string.h>
 
